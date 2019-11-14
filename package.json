@@ -1,0 +1,27 @@
+{
+  "name": "csfais",
+  "version": "1.0.0",
+  "description": "PDC自建宣傳[AI][運算思維][Code Judger][雲端練功坊]的網頁",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neochen2701/csfais.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neochen2701/csfais/issues"
+  },
+  "homepage": "https://github.com/neochen2701/csfais#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "npm": "^6.5.0",
+    "owl.carousel2": "^2.2.1"
+  }
+}
