@@ -15,9 +15,8 @@
 @import url(css/bootstrap.min.css);
 @import url(css/animate.css);
 @import url(css/owl.carousel.css);
-@import url(css/magnific-popup.css);
-@import url(css/font-awesome.min.css);
 @import url(css/themify-icons.css);
+
 
 /* :: Base CSS */
 * {
@@ -1090,6 +1089,11 @@ img {
   .sonar-testimonials-area .single-tes-slide.imgbox{
     width: 300px;
   }
+  @media only screen and (max-width: 576px) {
+    .sonar-testimonials-area .single-tes-slide.imgbox{
+      width: 200px;
+    }
+  }
 
   
   .sonar-testimonials-area .owl-dots {
@@ -1153,12 +1157,12 @@ img {
 /* new---------- */
 
 .logo{
-  width: 70px;
+  width: 60px;
   margin-right: 10px;
 }
 @media only screen and (max-width: 767px) {
   .logo{
-    width: 50px;
+    width: 40px;
   }
 }
 
